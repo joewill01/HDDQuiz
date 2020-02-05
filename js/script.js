@@ -130,7 +130,7 @@ function mark_quiz() {
     alert(`You got ${mark} out of ${questions.length}!`)
 }
 
-document.getElementById("id").ontouchend = (e) => {
+document.getElementById("html").ontouchend = (e) => {
     e.preventDefault();
 };
 

@@ -19,9 +19,9 @@ body {
 .form {
     background-color: white;
     border-radius: 25px;
-    width: 80%;
+    width: calc(100% - 100px);
     max-width: 650px;
-    height: 80%;
+    height: calc(100% - 160px);
     max-height: 650px;
     display: flex;
     flex-direction: column;

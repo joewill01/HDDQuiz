@@ -72,7 +72,7 @@ body {
 }
 
 .credits {
-    position: absolute;
+    position: fixed;
     bottom: 15px;
     left: 15px;
     font-weight: 700;

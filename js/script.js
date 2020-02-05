@@ -35,6 +35,62 @@ let questions = [
                 name: 'Either',
                 correct: true
             }]
+    }, {
+        name: 'How is data represented on the disk?',
+        correct: 0,
+        options: [
+            {
+                name: 'Binary',
+                correct: true
+            }, {
+                name: 'Hexadecimal',
+                correct: false
+            }, {
+                name: 'Denary',
+                correct: false
+            }]
+    }, {
+        name: 'What speed does the platter usually rotate?',
+        correct: 3,
+        options: [
+            {
+                name: '720RPM',
+                correct: false
+            }, {
+                name: '5400RPM',
+                correct: false
+            }, {
+                name: '7200RPM',
+                correct: false
+            }, {
+                name: '2 and 3',
+                correct: true
+            }]
+    }, {
+        name: 'What is the read/write head moved by?',
+        correct: 0,
+        options: [
+            {
+                name: 'Actuator',
+                correct: true
+            }, {
+                name: 'Spindle',
+                correct: false
+            }, {
+                name: 'E-Block',
+                correct: false
+            }]
+    }, {
+        name: 'What type of storage device is a HDD?',
+        correct: 1,
+        options: [
+            {
+                name: 'Volatile',
+                correct: false
+            }, {
+                name: 'Non volatile',
+                correct: true
+            }]
     },
 ];
 
